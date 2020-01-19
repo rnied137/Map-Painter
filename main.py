@@ -13,7 +13,7 @@ i = 1;
 
 
 
-data = pandas.read_csv("worldcities.csv")
+data = pandas.read_csv("worlds2.csv", sep=';')
 lat = list(data["lat"])
 lon = list(data["lng"])
         #coord_list.append(lat,lon)
